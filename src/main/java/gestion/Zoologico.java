@@ -26,7 +26,7 @@ public class Zoologico {
 
      public int cantidadTotalAnimales(){
 
-          int cant = 1;
+          int cant = 0;
           for (Zona zona: this.zona) {
                cant += zona.cantidadAnimales();
           }
