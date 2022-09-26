@@ -49,7 +49,7 @@ public class Mamifero extends Animal {
     public static Animal crearLeon(String nombre, int edad, String genero){
         Mamifero leon = new Mamifero(nombre, edad, "selva", genero, true, 4);
         Mamifero.listado.add(leon);
-        Mamifero._leones++;
+        Mamifero.leones++;
         return leon;
     }
 
